@@ -1,6 +1,6 @@
 # Ecoleta-mobile
 
-![Preview](https://github.com/israelmarmar/ecoleta-mobile/raw/master/ecoleta_gif.gif =36x36)
+![Preview](https://github.com/israelmarmar/ecoleta-mobile/raw/master/ecoleta_gif.gif)
 
 :rocket: Technologies
 

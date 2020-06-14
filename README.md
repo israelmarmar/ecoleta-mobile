@@ -1,2 +1,8 @@
-# ecoleta-mobile
-ecoleta-mobile
+# Ecoleta-mobile
+
+:rocket: Technologies
+
+
+- React Native
+- Expo
+- Typescript

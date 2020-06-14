@@ -77,6 +77,7 @@ const Points = () => {
                 items: selectedItems
             }
         }).then(response => {
+            console.log(response.data);
             setPoints(response.data);
         })
     }, [selectedItems]);
@@ -126,8 +127,8 @@ const Points = () => {
                             style={styles.mapMarker}
                             onPress={() => handleNavigateToDetail(point.id)}
                             coordinate={{
-                                latitude: point.latitude,
-                                longitude: point.longitude
+                                latitude: Number(point.latitude),
+                                longitude: Number(point.longitude)
                             }}>
                                 <View style={styles.mapMarkerContainer}>
                                     <Image style={styles.mapMarkerImage} source={{uri: point.image_url}} />
